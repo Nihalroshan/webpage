@@ -34,13 +34,11 @@ body {
 ul {
     float: right;
     list-style-type: none;
-    
-
 }
 
 li{
     display: inline-block;
-    padding: 10px;
+    padding: px;
 }
 ul li a{
 	text-decoration: none;
@@ -51,9 +49,11 @@ ul li a{
     font-size: 1.5rem;
 }
 ul li a:hover{
-	background-color: #fff;
-	color: #000;
+    border: none;
+	background-color: rgb(236, 207, 207);
+	color: #fff;
 }
+    
 .sign_in a {
     color: blue;
 }
@@ -106,3 +106,61 @@ button:hover{
     background: rgb(228, 58, 15);
     cursor: pointer;
 }
+
+@media (max-width: 1045px) {
+    .logo{
+        width: 25%;
+    }
+    .lis {
+        width: 75%;
+    }
+
+}
+@media (max-width: 730px){
+    
+    .logo{
+        width: 10%;
+        
+    }
+    .logo h1{
+        margin-left: 14px;
+    }
+    .lis{
+        width: 90%;
+        
+    }
+    
+    ul li a{
+        display: block;
+        float:left;
+        padding:5px 10px;
+    }
+    
+    .popup-contents{
+        width: 300px;;
+        height: 450px;
+    }
+
+    input{
+        width: 200px;
+        margin-top:42px;
+    }
+}
+ @media (max-width:450px) {
+     .logo{
+        width: 100%;
+     }
+     .logo h1{
+         margin: 0;
+         text-align: center;
+     }
+     .lis{
+         width: 100%;
+         margin: 10px;
+     }
+     ul li a{
+        display: block;
+        clear: both;
+        padding:5px 4px;
+    }
+ }
