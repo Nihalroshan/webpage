@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body {
+    background-color: rgb(221, 140, 140);
+}
 
 .navbar {
     padding: 0;
@@ -54,3 +57,53 @@ ul li a:hover{
 .sign_in a {
     color: blue;
 }
+
+.popup{
+    background: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content:center ;
+    align-items: center;
+    text-align: center;
+}
+
+.popup-contents{
+    height: 500px;
+    width: 500px;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+.popup-contents img {
+    margin-top: 20px;
+    width: 100px;
+    height: auto;
+}
+
+input{
+    margin: 20px auto;
+    display: block;
+    width: 300px;
+    height: 40px;
+    margin-top: 53px;
+}
+
+button {
+    margin-top: 40px;
+    font-size: 20px;
+    width:50%;
+    height: 50px;
+    color: rgb(4, 6, 12);
+    background: rgb(25, 119, 207);
+    border:none;
+    border-radius: 5px;
+}
+
+button:hover{
+    background: rgb(228, 58, 15);
+    cursor: pointer;
+}
+
