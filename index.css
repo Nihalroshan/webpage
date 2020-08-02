@@ -51,3 +51,6 @@ ul li a:hover{
 	background-color: #fff;
 	color: #000;
 }
+.sign_in a {
+    color: blue;
+}
