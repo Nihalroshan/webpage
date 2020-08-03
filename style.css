@@ -107,6 +107,12 @@ button:hover{
     cursor: pointer;
 }
 
+#greet {
+    color: aliceblue;
+    text-align: center;
+    font-family: cursive;
+}
+
 @media (max-width: 1045px) {
     .logo{
         width: 25%;
